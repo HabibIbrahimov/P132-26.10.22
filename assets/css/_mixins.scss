@@ -1,0 +1,15 @@
+@mixin d-flex ($flex, $justify, $align, $wrap,$direction) {
+
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+
+}
+
+
+// @mixin d-grid($display,$columns,$gap) {
+//     display: $display;
+//     grid-template-columns: 1fr 1fr 3fr 5fr;
+// }
